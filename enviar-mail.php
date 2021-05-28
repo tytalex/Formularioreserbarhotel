@@ -31,7 +31,7 @@ if (isset($_POST['nombres'])){
 	$header = "MIME-Version: 1.0\r\n";
 	$header .= "Content-type: text/html; charset=UTF-8\r\n";
 	$header .= "From: ". $nombres . " <" . $email_cliente . ">\r\n";
-	$email='alex_diosdado99@hotmail.com';//Ingresa tu dirección de correo
+	$email='alexpomahuacre403@gmail.com';//Ingresa tu dirección de correo
 	
 	$subject="Nueva reserva de habitación realiza por: ".$nombres;			
 	if (mail($email,$subject,$message,$header)){
